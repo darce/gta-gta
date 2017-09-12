@@ -2,10 +2,15 @@
   "name": "gta-gta",
   "version": "0.0.1",
   "description": "Prototype for GTA x GTA",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "socket.io": "^2.0.3",
+    "uuid": "^3.1.0"
+  }
 }
